@@ -69,9 +69,9 @@ modal.innerHTML = `
 <div class="modal book-modal fade" id="modalQuickView${el.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
   <img src="./../images/book.png" alt="" style="text-align: center; display: block; margin: auto;">
-  <h2 class="md-title" style="text-align: center; display: block; margin: auto;">${el.name}</h2> 
-  <h3 class="md-title" style="text-align: center; display: block; margin: auto;">${el.author}</h3> 
-  <h4 class="md-desc" style="text-align: center; display: block; margin: auto;">${el.description}</h4> 
+  <h2 class="md-title" style="margin-left: 10px">Назва книги: ${el.name}</h2> 
+  <h3 class="md-title" style="margin-left: 10px">Автор: ${el.author}</h3> 
+  <h4 class="md-desc" style="margin-left: 10px">Коротний опис:${el.description}</h4>
 </div>
 </div>
 `
