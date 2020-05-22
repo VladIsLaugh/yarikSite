@@ -1,4 +1,4 @@
-const requestURL = "http://abonements.herokuapp.com/api/books/";
+const requestURL = "https://abonements.herokuapp.com/api/books/";
 const container = document.getElementById("wrapperBlock");
 
 document.addEventListener("DOMContentLoaded", (e) => {
