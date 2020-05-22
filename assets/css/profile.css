@@ -1,0 +1,12 @@
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .card-rigth-side{
+      background-color: #fff;
+      padding: 50px;
+      height: 70vh;
+  }

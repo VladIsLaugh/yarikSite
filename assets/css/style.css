@@ -429,7 +429,7 @@ button:focus {
 
 
 #mu-book-overview {
-	background-color: #f8f8f8;
+	background-color: #ff871c;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -479,6 +479,12 @@ button:focus {
 	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
+	cursor: pointer;
+}
+
+.book-modal{
+
+	margin: auto;
 }
 
 .mu-book-overview-icon-box {
@@ -1276,3 +1282,6 @@ button:focus {
 	
 }
 
+.while{
+	color: #fff!important;
+}
